@@ -1,0 +1,214 @@
+*{font-family: 'Source Sans Pro', sans-serif;}
+
+body{background-color:#E5E5E5}
+svg{ margin-top: 1pc;
+     margin-bottom: 5pc;
+    margin-left: 1pc;}
+#wetech{margin-left: 4pc;}
+.bar{ margin-top: -3pc;}
+.head1{
+    margin-bottom: -5pc;
+   background-color: #ffffff;
+
+}
+.center{
+  left:7pc;
+}
+h2, .head2{
+    margin-left:3pc ;
+    margin-top: 1.2pc;
+    margin-bottom: 1.2pc;
+    word-spacing: 1.2pc;
+}
+a{
+    border-bottom: 4pc;
+
+}
+#nav{ margin-left: 3pc;}
+#logout{
+    margin-top: 14pc;
+    margin-left: 3pc;
+    
+}
+a {
+    text-decoration: none;
+    color: #9C9494;
+  }
+
+  a:visited {
+    color: #9C9494;
+    background-color: #232C7F;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #9C9494;
+    background-color: #232C7F;
+    text-decoration: none;
+  }
+  a:active {
+    color: #9C9494;
+    background-color: #232C7F;
+    text-decoration: none;}
+
+.box {
+    max-width: 100%;
+    margin: auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    align-content: space-between;
+  }
+.left-box{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 3px;
+    width: 35%;
+    height: 520px;
+    padding: 0 10px;
+    background-color: transparent;
+    
+}
+.left-box h4{margin-top: 1pc;
+top: 0;
+margin-bottom: 1.6pc;
+margin-left: 4pc;
+
+color: #232C7F;}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    left:4.1pc;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #414141;
+    
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 2.5px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius:2pc;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #232C7F;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 6px;
+    top: 2.8px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);}
+
+form button{
+  background-color: #232C7F;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  margin: 15px 0;
+  margin-top: 3pc;
+  border-radius: 0.5pc;
+  margin-left: 4.5pc;
+  width:14pc
+
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    max-width: 65%;
+    height: 700px;
+    padding: 0 10px;
+    background-color: #ffffff;
+    color: #736D6D;
+    border-top-left-radius: 0.6pc;
+    
+}
+.right-box h3{color: #242224;
+margin-left: 2pc;
+margin-top: 1.2pc;
+font-weight: 400;
+size: 25px;
+line-height: 36.05px;}
+.right-box p{size: 15px;
+    line-height: 21.63px;
+    font-weight: 400;
+    margin-bottom: 4pc;
+    margin-left: 2pc;
+
+}
+.right-box h4{
+    size: 16px;
+    line-height: 20.11px;
+    font-weight: 600;
+    margin-left: 2pc;
+    color: #242224;
+
+}
+#p{color: #414141;}
+ul{margin-left: 0.7pc;
+color: #242224;}
+li{color: #414141;}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    flex-direction: column-reverse;
+  }
+  
+
+
+}  
